@@ -62,16 +62,24 @@ p {
     color: #efefef;
 }
 
+.pure-menu-link:visited {
+    background-color: #0093f3;
+}
+
 .pure-menu-link:hover {
     background-color: #0978c1;
     color: #ffffff
 }
 
-.banner {
+.pure-menu-link:active {
+    background-color: #0978c1;
+}
+
+.section-main {
     background: transparent url('../img/title.jpg') 0 0 no-repeat fixed;
     text-align: center;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/title.png', sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/title.jpg', sizingMethod='scale');
     height: 570px;
     width: 100%;
     margin-bottom: 3em;
@@ -80,14 +88,35 @@ p {
 
 .section-landscapes {
     background: transparent url('../img/turtle.jpg') 0 0 no-repeat fixed;
+    text-align: center;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/turtle.jpg', sizingMethod='scale');
+    height: 570px;
+    width: 100%;
+    margin-bottom: 3em;
+    display: table;
 }
 
 .section-people {
     background: transparent url('../img/surfing.jpg') 0 0 no-repeat fixed;
+    text-align: center;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/surfing.jpg', sizingMethod='scale');
+    height: 570px;
+    width: 100%;
+    margin-bottom: 3em;
+    display: table;
 }
 
 .section-sand {
     background: transparent url('../img/muschel.jpg') 0 0 no-repeat fixed;
+    text-align: center;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/muschel.jpg', sizingMethod='scale');
+    height: 570px;
+    width: 100%;
+    margin-bottom: 3em;
+    display: table;
 }
 
 .section-head-main {
