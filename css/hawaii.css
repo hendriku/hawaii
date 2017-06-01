@@ -85,9 +85,11 @@ p {
 }
 
 .section-main {
-    background: transparent url('../img/title.jpg') 0 0 no-repeat fixed;
+    background: transparent url('../img/title.jpg') no-repeat center center fixed;
     text-align: center;
-    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/title.jpg', sizingMethod='scale');
     height: 570px;
     width: 100%;
@@ -96,9 +98,11 @@ p {
 }
 
 .section-landscapes {
-    background: transparent url('../img/turtle.jpg') 0 0 no-repeat fixed;
+    background: transparent url('../img/turtle.jpg') no-repeat center center fixed;
     text-align: center;
-    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/turtle.jpg', sizingMethod='scale');
     height: 570px;
     width: 100%;
@@ -107,9 +111,11 @@ p {
 }
 
 .section-people {
-    background: transparent url('../img/surfing.jpg') 0 0 no-repeat fixed;
+    background: transparent url('../img/surfing.jpg') no-repeat center center fixed;
     text-align: center;
-    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/surfing.jpg', sizingMethod='scale');
     height: 570px;
     width: 100%;
@@ -118,9 +124,11 @@ p {
 }
 
 .section-sand {
-    background: transparent url('../img/muschel.jpg') 0 0 no-repeat fixed;
+    background: transparent url('../img/muschel.jpg') no-repeat center center fixed;
     text-align: center;
-    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/muschel.jpg', sizingMethod='scale');
     height: 570px;
     width: 100%;
@@ -234,6 +242,22 @@ a.pure-button-primary {
  * -- PHONE MEDIA QUERIES --
  */
 @media (min-width: 480px) {
+    h1 {
+      margin: .67em 1em;
+    }
+
+    #kontakt {
+      padding-top: 1em;
+      padding-bottom: 3em;
+    }
+
+    .contact {
+      padding-bottom: 1em;
+    }
+
+    .pure-menu-link {
+      font-size: 0.9em;
+    }
     .banner {
         height: 570px;
     }
