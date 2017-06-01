@@ -91,6 +91,7 @@ p {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/title.jpg', sizingMethod='scale');
     height: 570px;
     width: 100%;
@@ -104,6 +105,7 @@ p {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/turtle.jpg', sizingMethod='scale');
     height: 570px;
     width: 100%;
@@ -117,6 +119,7 @@ p {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/surfing.jpg', sizingMethod='scale');
     height: 570px;
     width: 100%;
@@ -130,6 +133,7 @@ p {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/muschel.jpg', sizingMethod='scale');
     height: 570px;
     width: 100%;
