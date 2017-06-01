@@ -56,7 +56,7 @@ p {
 }
 
 .banner {
-    background: transparent url('../img/title.png') 0 0 no-repeat fixed;
+    background: transparent url('../img/title.jpg') 0 0 no-repeat fixed;
     text-align: center;
     background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/title.png', sizingMethod='scale');
