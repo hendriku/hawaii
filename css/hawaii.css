@@ -63,7 +63,7 @@ p {
 .pure-menu-selected .pure-menu-link,
 .pure-menu-selected .pure-menu-link:visited {
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .pure-menu-link {
@@ -86,7 +86,7 @@ p {
 }
 
 .section-main {
-    background: transparent url('../img/title.jpg') no-repeat center center fixed;
+    background: transparent url('../img/title.jpg') no-repeat center center scroll;
     text-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -100,7 +100,7 @@ p {
 }
 
 .section-landscapes {
-    background: transparent url('../img/turtle.jpg') no-repeat center center fixed;
+    background: transparent url('../img/turtle.jpg') no-repeat center center scroll;
     text-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -114,7 +114,7 @@ p {
 }
 
 .section-people {
-    background: transparent url('../img/surfing.jpg') no-repeat center center fixed;
+    background: transparent url('../img/surfing.jpg') no-repeat center center scroll;
     text-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -128,7 +128,7 @@ p {
 }
 
 .section-sand {
-    background: transparent url('../img/muschel.jpg') no-repeat center center fixed;
+    background: transparent url('../img/muschel.jpg') no-repeat center center scroll;
     text-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -151,7 +151,7 @@ p {
     margin-bottom: 0;
     font-size: 2.5em;
     color: white;
-    font-weight: 200;
+    font-weight: 600;
     text-shadow: 0 1px 1px black;
 }
 
@@ -246,6 +246,32 @@ a.pure-button-primary {
  * -- PHONE MEDIA QUERIES --
  */
 @media (min-width: 480px) {
+  .section-people {
+      background: transparent url('../img/surfing.jpg') no-repeat center center fixed;
+    }
+
+    .section-sand {
+        background: transparent url('../img/muschel.jpg') no-repeat center center fixed;
+    }
+
+    .section-landscapes {
+        background: transparent url('../img/turtle.jpg') no-repeat center center fixed;
+    }
+
+    .section-main {
+      background: transparent url('../img/title.jpg') no-repeat center center fixed;
+      text-align: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/title.jpg', sizingMethod='scale');
+      height: 570px;
+      width: 100%;
+      margin-bottom: 3em;
+      display: table;
+    }
+
     h1 {
       font-size: 2em;
     }
@@ -278,6 +304,7 @@ a.pure-button-primary {
 
     .pure-menu-link {
       font-size: 1.2em;
+      font-weight: 500;
     }
 
     .banner {
