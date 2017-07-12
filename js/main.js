@@ -14,6 +14,7 @@ var WebFontConfig = {
 var menuItems = ["menu1", "menu2", "menu3", "menu4"];
 var contentItems = ["main", "landschaften", "attraktionen", "kontakt"];
 
+// Automatically select menu items
 window.onscroll = function() {
   var doc = document.documentElement;
   var windowScroll = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
@@ -21,7 +22,7 @@ window.onscroll = function() {
   var max = 0;
   for(var i = 0; i < contentItems.length; i++) {
     var elementScroll = document.getElementById(contentItems[i]).offsetTop;
-    if(windowScroll >= elementScroll) {
+    if(windowScroll >= elementScroll - 20) {
       max = i;
     }
   }

@@ -5,7 +5,6 @@ body {
 body,
 .pure-g [class *= "pure-u"],
 .pure-g-r [class *= "pure-u"] {
-    /* Set content font stack */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -24,14 +23,15 @@ p {
     line-height: 1.6em;
 }
 
+a {
+    color: #3d9c9f;
+}
+
 #kontakt {
   padding-top: 0em;
   padding-bottom: 0em;
 }
 
-/*
- * -- Layout Styles --
- */
 .l-content {
     margin: 0 auto;
     margin-top: 3em;
@@ -50,13 +50,9 @@ p {
   padding-bottom: 0em;
 }
 
-/*
- * -- MENU STYLES --
- * Make the menu have a very faint box-shadow.
- */
 .pure-menu {
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-    background-color: #0093f3;
+    background-color: rgba(0, 147, 243, 0.75);
     position: fixed;
 }
 
@@ -172,7 +168,6 @@ p {
     color: white;
 }
 
-/* This is the class used for the content sub-headers (<h3>) */
 .content-subhead {
     color: #1f8dd6;
 }
@@ -185,10 +180,6 @@ p {
     text-align: center;
 }
 
-/*
- * -- PURE FORM STYLES --
- * Style the form inputs and labels
- */
 .pure-form label {
     margin: 1em 0 0;
     font-weight: bold;
@@ -202,10 +193,6 @@ p {
     width: 90%;
 }
 
-/*
- * -- PURE BUTTON STYLES --
- * I want my pure-button elements to look a little different
- */
 .pure-button {
     background-color: #0093f3;
     color: white;
@@ -220,18 +207,13 @@ a.pure-button-primary {
     font-size: 120%;
 }
 
-/*
-* -- FOOTER --
-*/
 .footer {
     background: #ffffff;
     color: #000;
     text-align: center;
 }
 
-.footer a {
-    color: #3d9c9f;
-}
+
 
 /*
  * -- TABLET MEDIA QUERIES --
