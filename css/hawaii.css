@@ -109,6 +109,10 @@ a {
     display: table;
 }
 
+.flexwithspace {
+  justify-content: space-around;
+}
+
 .section-people {
     background: transparent url('../img/surfing.jpg') no-repeat center center scroll;
     text-align: center;
