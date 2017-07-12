@@ -146,55 +146,36 @@
     <h1 id="kontakt-label" class="is-center contact label">Noch nicht gebucht? Leg los!<br />Hast du noch Fragen?</h2>
     <div class="pure-g">
         <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-            <form action="/submit.php" method="POST" class="pure-form pure-form-stacked">
+            <form action="mailto:hoegerl@lehre.dhbw-stuttgart.de" method="GET" class="pure-form pure-form-stacked">
                 <fieldset>
                     <label for="anrede">Anrede</label>
                     <select name="dropdown">
-                      <option value="weibl" selected>Weiblich</option>
+                      <option value="weibl">Weiblich</option>
                       <option value="maenn">Männlich</option>
                       <option value="sonst">Sonstiges</option>
                     </select>
 
+                    <label for="email">Email</label>
+                    <input id="email" type="email" required>
+
                     <label for="vorname">Vorname</label>
-                    <input id="vorname" type="text" name="vorname" required>
+                    <input id="vorname" type="text" name="vorname">
 
                     <label for="nachname">Nachname</label>
-                    <input id="name" type="text" name="nachname" required>
+                    <input id="nachname" type="text" name="nachname" required>
 
-                    <label for="adresse">Adresse</label>
-                    <textarea rows="2" cols="30" name="adresse" required></textarea>
+                    <label for="betreff">Betreff</label>
+                    <input id="betreff" type="text" name="subject" required>
 
-                    <label for="plz">PLZ</label>
-                    <input type="text" name="plz" value="" required>
+                    <label for="nachricht">Nachricht</label>
+                    <textarea id="nachricht" rows="8" cols="60" name="body" required></textarea>
 
-                    <label for="ort">Ort</label>
-                    <input type="text" name="ort" value="" required>
-
-                    <label for="internet">Internet</label>
-                    <input id="internet" type="checkbox" name="internet">
-
-                    <label for="newsgruppen">Newsgruppen</label>
-                    <input id="newsgruppen" type="checkbox" name="news">
-
-                    <label for="html">HTML</label>
-                    <input id="html" type="checkbox" name="html">
-
-                    <label for="land">Land</label>
-                    <select name="dropdown">
-                      <option value="deutschland" selected>Deutschland</option>
-                      <option value="oesterreich">Österreich</option>
-                      <option value="schweiz">Schweiz</option>
-                    </select>
-
-                    <br>Ich bin mit der Übermittlung der Daten einverstanden:<br>
+                    <br>Ich bin mit der Übermittlung/Speicherung der Daten einverstanden:<br>
                     <label for="data_ja">Ja</label>
                     <input id="data_ja" type="radio" name="data" value="y" checked>
 
                     <label for="data_nein">Nein</label>
                     <input id="data_nein" type="radio" name="data" value="n">
-
-                    <label for="email">Email</label>
-                    <input id="email" type="email" required>
 
                     <button type="submit" class="pure-button">Kontakt aufnehmen</button>
                     <button type="reset" class="pure-button">Zurücksetzen</button>
